@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: var(--space-4);
+  padding-right: var(--space-4);
+  display: block;
+  @media screen and (max-width: 790px){
+    padding: 0;
+  }
+}
+.container-fluid {
+  width: 100%;
+  padding-right: var(--gutter-x,.75rem);
+  padding-left: var(--gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 4.5rem;
+  letter-spacing: 0.2px;
+  background-color: var(--lighter);
+  font: 0.75em Inter, "Helvetica Neue", sans-serif !important;
+}
+
+.main .page, .main .stepper .stepper-list, .main .submenu .submenu-list {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+@import "base/index.scss";
+@import "components/index.scss";
+@import "layouts/index.scss";
+@import "mixins/index.scss";
+// Classes utilitaires de positionnement
+// ===================================================
+
+.clearfix {
+  @include clearfix();
+}
+
+.center-block {
+  @include center-block();
+}
+
+.container {
+  @include center-block();
+  @include clearfix();
+
+  padding-left:  $container-spacer;
+  padding-right: $container-spacer;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: var(--space-5);
+  padding-right: var(--space-5);
+}

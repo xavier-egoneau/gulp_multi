@@ -1,0 +1,3 @@
+# placer les scripts js dans ce répertoire et supprimer ce fichier
+# - sous-répertoire libs/ pour les scripts à insérer tels quels
+# - sous-répertoire main/ pour les scripts à concaténer ensemble

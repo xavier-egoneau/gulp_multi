@@ -1,0 +1,13 @@
+{
+  "git" : {
+    "base": "develop",
+    "branch": "live4"
+  },
+  "paths": {
+    "build": "./public/",
+    "assets": "./dev/assets/",
+    "scss": "./dev/assets/scss/",
+    "templates": "./dev/gabarits/includes/**/*.twig",
+    "pages": "./dev/gabarits/*.twig"
+  }
+}

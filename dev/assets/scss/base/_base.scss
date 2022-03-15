@@ -1,0 +1,48 @@
+:root {
+    --primary-100: rgba(221, 236, 250, 0.4);
+    --primary-200: #A9D1F2;
+    --primary-300: #54A2E4;
+    --primary-400: #1B75BC;
+    --primary-500: #134B7B;
+    --primary-600: #0A263D;
+
+
+    --base-font-size: 13px;
+    --animation-time: .3s;
+
+    --base-lineHeight: 12px;
+    --grid-columns: 12;
+    --grid-row-gap: 24px;
+    --grid-column-gap: 32px;
+
+    --radius-100: 2px;
+    --radius-200: 4px;
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+
+    --margin-4: 4px;
+    --margin-8: 8px;
+    --margin-12: 12px;
+    --margin-16: 16px;
+    --margin-24: 24px;
+    --margin-32: 32px;
+
+}
+
+// Spacers
+// ------------------------------------------------------------------
+
+$spacer:    1em !default;
+$spacer-x:  $spacer !default;
+$spacer-y:  $spacer !default;
+
+
+// container spacers
+// ------------------------------------------------------------------
+
+$container-spacer:  ($spacer-x / 2) !default;
